@@ -1,0 +1,33 @@
+.characters {
+  width: 500px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-around;
+  height: 210px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  box-shadow: -4px -1px 5px -1px #969595, 4px 0px 5px 1px #969595,
+    -1px 4px 5px 3px #969595;
+}
+
+.characters h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+  width: 50%;
+  color: brown;
+}
+
+.characters ul {
+  line-height: 2;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+  list-style: none;
+  color: rgb(99, 10, 10);
+}
+
+.characters ul li span {
+  padding-right: 15px;
+}
